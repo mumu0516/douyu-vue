@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+ul{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  color:#000;
+}
+body{
+  font-family:'Microsoft YaHei UI';
+  background:#ebebeb;
+  overflow-x: hidden;
+}
+.clear{
+  clear:both;
+}
+html,body{
+  height:100%;
+}
+
