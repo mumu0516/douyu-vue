@@ -27,7 +27,7 @@
         PublicHeader,Loading,HomeItem
       },
       created(){
-          this.axios.get('/douyuapi/RoomApi/live?limit=20')
+          this.axios.get('/live?limit=20')
             .then(data =>{
               this.error = false
               this.roomList = data.data.data
