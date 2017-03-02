@@ -12,11 +12,9 @@ import './assets/css/style.css'
 // 导入axios
 import axios from 'axios'
 
-var $http = axios.create({
-  baseURL:'http://open.douyucdn.cn/api/RoomApi'
-})
+
 // 将axios挂载到vue对象的原型下边以实现全局通用
-Vue.prototype.axios = $http
+Vue.prototype.axios = axios
 
 
 // 弄一个bus
