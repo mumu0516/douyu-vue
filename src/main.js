@@ -12,7 +12,6 @@ import './assets/css/style.css'
 // 导入axios
 import axios from 'axios'
 
-
 // 将axios挂载到vue对象的原型下边以实现全局通用
 Vue.prototype.axios = axios
 
