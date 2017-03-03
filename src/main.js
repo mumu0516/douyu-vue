@@ -27,8 +27,8 @@ Vue.filter('number',value =>{
   }
 })
 Vue.filter('message',value => {
-  if(value.length > 14){
-    return value.substr(0,12) + '...'
+  if(value.length > 12){
+    return value.substr(0,10) + '...'
   }else{
     return value
   }

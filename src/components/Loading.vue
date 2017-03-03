@@ -11,7 +11,7 @@
 <style>
   .loading{
     height:100%;
-    position:absolute;
+    position:fixed;
     z-index:10;
     width:100%;
     background:#062734;

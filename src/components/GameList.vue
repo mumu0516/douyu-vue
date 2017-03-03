@@ -1,6 +1,6 @@
 <template>
     <li>
-      <router-link :to="'/roomList/' + game.cate_id">
+      <router-link :to="'/roomList/' + game.cate_id + '/' + game.game_name">
         <img :src="game.game_icon" alt="">
         <p>{{game.game_name}}</p>
       </router-link>

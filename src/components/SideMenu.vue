@@ -16,7 +16,7 @@
              list:[
                {name:"首页",uri:"/"},
                {name:"全部分类",uri:"/category"},
-               {name:"推荐",uri:"/recommend"},
+               {name:"推荐",uri:"/recommand"},
                {name:"个人中心",uri:"/user"}
              ]
           }
